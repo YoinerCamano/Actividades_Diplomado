@@ -1,0 +1,970 @@
+!SESSION 2022-10-29 09:49:56.973 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.11
+java.vendor=AdoptOpenJDK
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_CO
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 1 0 2022-10-29 09:50:47.740
+!MESSAGE Recreating part support. No part support available.
+
+!ENTRY org.eclipse.egit.ui 2 0 2022-10-29 09:50:50.581
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\yoine'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 1 0 2022-10-29 09:54:24.414
+!MESSAGE The device 'K32L2B31xxxxA' (version='1.0.0') from SDK 'SDK_2.x_FRDM-K32L2B' (version='2.12.0', build='epluginsite611 2022-07-14') will be installed.
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-10-29 09:58:30.256
+!MESSAGE Indexed 'frdmk32l2b_led_led_blinky' (0 sources, 0 headers) in 0,004 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0 %)
+
+!ENTRY com.crt.log 1 0 2022-10-29 10:01:25.314
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2022-10-29 10:01:25.318
+!MESSAGE RedlinkServer telnet session connected on port 3025->56189 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2022-10-29 10:01:49.021
+!MESSAGE Starting GDB server [ C:/nxp/MCUXpressoIDE_11.6.1_8255/ide/plugins/com.nxp.mcuxpresso.tools.bin.win32_11.6.1.202210030617/binaries//crt_emu_cm_redlink, --server, :10989, -msg-port=56196, -g, -mi, -2, -pK32L2B31xxxxA, -vendor=NXP, --connectscript=kinetisconnect.scp, --reset=, -ProbeHandle=1, -CoreIndex=0, -cache=disable, --flash-hashing, --flash-driver=, -x, C:/Users/yoine/OneDrive - Universidad del Magdalena/Diplomado IoT/Actividades/Modulo 2/frdmk32l2b_led_led_blinky/Debug, --flash-dir, C:/nxp/MCUXpressoIDE_11.6.1_8255/ide/plugins/com.nxp.mcuxpresso.tools.bin.win32_11.6.1.202210030617/binaries/Flash, --flash-dir, C:/Users/yoine/OneDrive - Universidad del Magdalena/Diplomado IoT/Actividades/Modulo 2/.mcuxpressoide_packages_support/K32L2B31xxxxA_support/Flash, --telnet, 3330 ]
+
+!ENTRY com.nxp.mcuxpresso.core.debug 1 0 2022-10-29 10:01:51.647
+!MESSAGE Telnet session connected on port 3330->56199 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2022-10-29 10:04:38.837
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2022-10-29 10:04:39.341
+!MESSAGE RedlinkServer telnet session connected on port 3025->56478 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2022-10-29 10:04:44.826
+!MESSAGE Starting GDB server [ C:/nxp/MCUXpressoIDE_11.6.1_8255/ide/plugins/com.nxp.mcuxpresso.tools.bin.win32_11.6.1.202210030617/binaries//crt_emu_cm_redlink, --server, :10989, -msg-port=56482, -g, -mi, -2, -pK32L2B31xxxxA, -vendor=NXP, --connectscript=kinetisconnect.scp, --reset=, -ProbeHandle=1, -CoreIndex=0, -cache=disable, --flash-hashing, --flash-driver=, -x, C:/Users/yoine/OneDrive - Universidad del Magdalena/Diplomado IoT/Actividades/Modulo 2/frdmk32l2b_led_led_blinky/Debug, --flash-dir, C:/nxp/MCUXpressoIDE_11.6.1_8255/ide/plugins/com.nxp.mcuxpresso.tools.bin.win32_11.6.1.202210030617/binaries/Flash, --flash-dir, C:/Users/yoine/OneDrive - Universidad del Magdalena/Diplomado IoT/Actividades/Modulo 2/.mcuxpressoide_packages_support/K32L2B31xxxxA_support/Flash, --telnet, 3330 ]
+
+!ENTRY com.nxp.mcuxpresso.core.debug 1 0 2022-10-29 10:04:47.372
+!MESSAGE Telnet session connected on port 3330->56485 @ 127.0.0.1
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-10-29 10:07:41.893
+!MESSAGE Indexed 'frdmk32l2b_hello_word_hello_world' (0 sources, 0 headers) in 0,001 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0 %)
+
+!ENTRY com.crt.log 1 0 2022-10-29 10:08:21.207
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2022-10-29 10:08:21.711
+!MESSAGE RedlinkServer telnet session connected on port 3025->56713 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2022-10-29 10:08:29.135
+!MESSAGE Starting GDB server [ C:/nxp/MCUXpressoIDE_11.6.1_8255/ide/plugins/com.nxp.mcuxpresso.tools.bin.win32_11.6.1.202210030617/binaries//crt_emu_cm_redlink, --server, :10989, -msg-port=56720, -g, -mi, -2, -pK32L2B31xxxxA, -vendor=NXP, --connectscript=kinetisconnect.scp, --reset=, -ProbeHandle=1, -CoreIndex=0, -cache=disable, --flash-hashing, --flash-driver=, -x, C:/Users/yoine/OneDrive - Universidad del Magdalena/Diplomado IoT/Actividades/Modulo 2/frdmk32l2b_hello_word_hello_world/Debug, --flash-dir, C:/nxp/MCUXpressoIDE_11.6.1_8255/ide/plugins/com.nxp.mcuxpresso.tools.bin.win32_11.6.1.202210030617/binaries/Flash, --flash-dir, C:/Users/yoine/OneDrive - Universidad del Magdalena/Diplomado IoT/Actividades/Modulo 2/.mcuxpressoide_packages_support/K32L2B31xxxxA_support/Flash, --telnet, 3331 ]
+
+!ENTRY com.nxp.mcuxpresso.core.debug 1 0 2022-10-29 10:08:31.656
+!MESSAGE Telnet session connected on port 3331->56723 @ 127.0.0.1
+
+!ENTRY org.eclipse.debug.core 4 2 2022-10-29 10:25:10.674
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.debug.core".
+!STACK 0
+java.lang.NullPointerException
+	at com.nxp.mcuxpresso.core.debug.services.MCXTelnetService.launchesChanged(MCXTelnetService.java:341)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchesNotifier.run(LaunchManager.java:302)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchesNotifier.notify(LaunchManager.java:262)
+	at org.eclipse.debug.internal.core.LaunchManager.fireUpdate(LaunchManager.java:1038)
+	at org.eclipse.debug.core.Launch.fireChanged(Launch.java:466)
+	at org.eclipse.cdt.dsf.debug.model.DsfLaunch.access$0(DsfLaunch.java:1)
+	at org.eclipse.cdt.dsf.debug.model.DsfLaunch.lambda$0(DsfLaunch.java:42)
+	at org.eclipse.debug.core.DebugPlugin$AsynchRunner.run(DebugPlugin.java:1175)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.core.DebugPlugin$AsynchRunner.async(DebugPlugin.java:1162)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:478)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.debug.core 4 120 2022-10-29 10:25:10.676
+!MESSAGE An exception occurred during launch change notification.
+!STACK 0
+java.lang.NullPointerException
+	at com.nxp.mcuxpresso.core.debug.services.MCXTelnetService.launchesChanged(MCXTelnetService.java:341)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchesNotifier.run(LaunchManager.java:302)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchesNotifier.notify(LaunchManager.java:262)
+	at org.eclipse.debug.internal.core.LaunchManager.fireUpdate(LaunchManager.java:1038)
+	at org.eclipse.debug.core.Launch.fireChanged(Launch.java:466)
+	at org.eclipse.cdt.dsf.debug.model.DsfLaunch.access$0(DsfLaunch.java:1)
+	at org.eclipse.cdt.dsf.debug.model.DsfLaunch.lambda$0(DsfLaunch.java:42)
+	at org.eclipse.debug.core.DebugPlugin$AsynchRunner.run(DebugPlugin.java:1175)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.core.DebugPlugin$AsynchRunner.async(DebugPlugin.java:1162)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:478)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.debug.core 4 5012 2022-10-29 10:25:10.697
+!MESSAGE Launch configuration frdmk32l2b_hello_word_hello_world LinkServer Debug at file:/C:/Users/yoine/OneDrive%20-%20Universidad%20del%20Magdalena/Diplomado%20IoT/Actividades/Modulo%202/frdmk32l2b_hello_word_hello_world/frdmk32l2b_hello_word_hello_world%20LinkServer%20Debug.launch does not exist.
+
+!ENTRY com.crt.log 1 0 2022-10-29 10:26:46.979
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2022-10-29 10:26:47.482
+!MESSAGE RedlinkServer telnet session connected on port 3025->57097 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2022-10-29 10:26:52.541
+!MESSAGE Starting GDB server [ C:/nxp/MCUXpressoIDE_11.6.1_8255/ide/plugins/com.nxp.mcuxpresso.tools.bin.win32_11.6.1.202210030617/binaries//crt_emu_cm_redlink, --server, :10989, -msg-port=57098, -g, -mi, -2, -pK32L2B31xxxxA, -vendor=NXP, --connectscript=kinetisconnect.scp, --reset=, -ProbeHandle=1, -CoreIndex=0, -cache=disable, --flash-hashing, --flash-driver=, -x, C:/Users/yoine/OneDrive - Universidad del Magdalena/Diplomado IoT/Actividades/Modulo 2/frdmk32l2b_led_led_blinky/Debug, --flash-dir, C:/nxp/MCUXpressoIDE_11.6.1_8255/ide/plugins/com.nxp.mcuxpresso.tools.bin.win32_11.6.1.202210030617/binaries/Flash, --flash-dir, C:/Users/yoine/OneDrive - Universidad del Magdalena/Diplomado IoT/Actividades/Modulo 2/.mcuxpressoide_packages_support/K32L2B31xxxxA_support/Flash, --telnet, 3332 ]
+
+!ENTRY com.nxp.mcuxpresso.core.debug 1 0 2022-10-29 10:26:55.105
+!MESSAGE Telnet session connected on port 3332->57101 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2022-10-29 10:37:28.332
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2022-10-29 10:37:28.838
+!MESSAGE RedlinkServer telnet session connected on port 3025->57627 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2022-10-29 10:37:34.311
+!MESSAGE Starting GDB server [ C:/nxp/MCUXpressoIDE_11.6.1_8255/ide/plugins/com.nxp.mcuxpresso.tools.bin.win32_11.6.1.202210030617/binaries//crt_emu_cm_redlink, --server, :10989, -msg-port=57628, -g, -mi, -2, -pK32L2B31xxxxA, -vendor=NXP, --connectscript=kinetisconnect.scp, --reset=, -ProbeHandle=1, -CoreIndex=0, -cache=disable, --flash-hashing, --flash-driver=, -x, C:/Users/yoine/OneDrive - Universidad del Magdalena/Diplomado IoT/Actividades/Modulo 2/frdmk32l2b_led_led_blinky/Debug, --flash-dir, C:/nxp/MCUXpressoIDE_11.6.1_8255/ide/plugins/com.nxp.mcuxpresso.tools.bin.win32_11.6.1.202210030617/binaries/Flash, --flash-dir, C:/Users/yoine/OneDrive - Universidad del Magdalena/Diplomado IoT/Actividades/Modulo 2/.mcuxpressoide_packages_support/K32L2B31xxxxA_support/Flash, --telnet, 3332 ]
+
+!ENTRY com.nxp.mcuxpresso.core.debug 1 0 2022-10-29 10:37:36.826
+!MESSAGE Telnet session connected on port 3332->57631 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2022-10-29 10:57:14.714
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2022-10-29 10:57:15.220
+!MESSAGE RedlinkServer telnet session connected on port 3025->58422 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2022-10-29 10:57:20.782
+!MESSAGE Starting GDB server [ C:/nxp/MCUXpressoIDE_11.6.1_8255/ide/plugins/com.nxp.mcuxpresso.tools.bin.win32_11.6.1.202210030617/binaries//crt_emu_cm_redlink, --server, :10989, -msg-port=58429, -g, -mi, -2, -pK32L2B31xxxxA, -vendor=NXP, --connectscript=kinetisconnect.scp, --reset=, -ProbeHandle=1, -CoreIndex=0, -cache=disable, --flash-hashing, --flash-driver=, -x, C:/Users/yoine/OneDrive - Universidad del Magdalena/Diplomado IoT/Actividades/Modulo 2/frdmk32l2b_led_led_blinky/Debug, --flash-dir, C:/nxp/MCUXpressoIDE_11.6.1_8255/ide/plugins/com.nxp.mcuxpresso.tools.bin.win32_11.6.1.202210030617/binaries/Flash, --flash-dir, C:/Users/yoine/OneDrive - Universidad del Magdalena/Diplomado IoT/Actividades/Modulo 2/.mcuxpressoide_packages_support/K32L2B31xxxxA_support/Flash, --telnet, 3332 ]
+
+!ENTRY com.nxp.mcuxpresso.core.debug 1 0 2022-10-29 10:57:23.293
+!MESSAGE Telnet session connected on port 3332->58432 @ 127.0.0.1
+
+!ENTRY com.nxp.mcuxpresso.core.debug 4 0 2022-10-29 10:58:28.763
+!MESSAGE There is already a running debug session for the launch configuration 'frdmk32l2b_led_led_blinky LinkServer Debug'.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2022-10-29 10:58:33.206
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.ImmediateRequestMonitor@42a51b27): Status ERROR: org.eclipse.cdt.dsf.gdb code=10003 Given context: (gdb[5].proc[42000].threadGroup[i1],gdb[5].proc[42000].OSthread[1]).thread[1], is already suspended.' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10003 2022-10-29 10:58:33.206
+!MESSAGE Given context: (gdb[5].proc[42000].threadGroup[i1],gdb[5].proc[42000].OSthread[1]).thread[1], is already suspended.
+
+!ENTRY com.crt.log 1 0 2022-10-29 10:58:43.100
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2022-10-29 10:58:43.605
+!MESSAGE RedlinkServer telnet session connected on port 3025->58522 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2022-10-29 10:58:48.937
+!MESSAGE Starting GDB server [ C:/nxp/MCUXpressoIDE_11.6.1_8255/ide/plugins/com.nxp.mcuxpresso.tools.bin.win32_11.6.1.202210030617/binaries//crt_emu_cm_redlink, --server, :10989, -msg-port=58523, -g, -mi, -2, -pK32L2B31xxxxA, -vendor=NXP, --connectscript=kinetisconnect.scp, --reset=, -ProbeHandle=1, -CoreIndex=0, -cache=disable, --flash-hashing, --flash-driver=, -x, C:/Users/yoine/OneDrive - Universidad del Magdalena/Diplomado IoT/Actividades/Modulo 2/frdmk32l2b_led_led_blinky/Debug, --flash-dir, C:/nxp/MCUXpressoIDE_11.6.1_8255/ide/plugins/com.nxp.mcuxpresso.tools.bin.win32_11.6.1.202210030617/binaries/Flash, --flash-dir, C:/Users/yoine/OneDrive - Universidad del Magdalena/Diplomado IoT/Actividades/Modulo 2/.mcuxpressoide_packages_support/K32L2B31xxxxA_support/Flash, --telnet, 3332 ]
+
+!ENTRY com.nxp.mcuxpresso.core.debug 1 0 2022-10-29 10:58:51.513
+!MESSAGE Telnet session connected on port 3332->58526 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2022-10-29 11:02:35.618
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2022-10-29 11:02:36.123
+!MESSAGE RedlinkServer telnet session connected on port 3025->58800 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2022-10-29 11:02:41.354
+!MESSAGE Starting GDB server [ C:/nxp/MCUXpressoIDE_11.6.1_8255/ide/plugins/com.nxp.mcuxpresso.tools.bin.win32_11.6.1.202210030617/binaries//crt_emu_cm_redlink, --server, :10989, -msg-port=58801, -g, -mi, -2, -pK32L2B31xxxxA, -vendor=NXP, --connectscript=kinetisconnect.scp, --reset=, -ProbeHandle=1, -CoreIndex=0, -cache=disable, --flash-hashing, --flash-driver=, -x, C:/Users/yoine/OneDrive - Universidad del Magdalena/Diplomado IoT/Actividades/Modulo 2/frdmk32l2b_led_led_blinky/Debug, --flash-dir, C:/nxp/MCUXpressoIDE_11.6.1_8255/ide/plugins/com.nxp.mcuxpresso.tools.bin.win32_11.6.1.202210030617/binaries/Flash, --flash-dir, C:/Users/yoine/OneDrive - Universidad del Magdalena/Diplomado IoT/Actividades/Modulo 2/.mcuxpressoide_packages_support/K32L2B31xxxxA_support/Flash, --telnet, 3332 ]
+
+!ENTRY com.nxp.mcuxpresso.core.debug 1 0 2022-10-29 11:02:43.873
+!MESSAGE Telnet session connected on port 3332->58804 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2022-10-29 11:03:53.848
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2022-10-29 11:03:54.351
+!MESSAGE RedlinkServer telnet session connected on port 3025->58871 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2022-10-29 11:03:59.632
+!MESSAGE Starting GDB server [ C:/nxp/MCUXpressoIDE_11.6.1_8255/ide/plugins/com.nxp.mcuxpresso.tools.bin.win32_11.6.1.202210030617/binaries//crt_emu_cm_redlink, --server, :10989, -msg-port=58872, -g, -mi, -2, -pK32L2B31xxxxA, -vendor=NXP, --connectscript=kinetisconnect.scp, --reset=, -ProbeHandle=1, -CoreIndex=0, -cache=disable, --flash-hashing, --flash-driver=, -x, C:/Users/yoine/OneDrive - Universidad del Magdalena/Diplomado IoT/Actividades/Modulo 2/frdmk32l2b_led_led_blinky/Debug, --flash-dir, C:/nxp/MCUXpressoIDE_11.6.1_8255/ide/plugins/com.nxp.mcuxpresso.tools.bin.win32_11.6.1.202210030617/binaries/Flash, --flash-dir, C:/Users/yoine/OneDrive - Universidad del Magdalena/Diplomado IoT/Actividades/Modulo 2/.mcuxpressoide_packages_support/K32L2B31xxxxA_support/Flash, --telnet, 3332 ]
+
+!ENTRY com.nxp.mcuxpresso.core.debug 1 0 2022-10-29 11:04:02.143
+!MESSAGE Telnet session connected on port 3332->58875 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2022-10-29 11:04:34.194
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2022-10-29 11:04:34.698
+!MESSAGE RedlinkServer telnet session connected on port 3025->58906 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2022-10-29 11:04:40.819
+!MESSAGE Starting GDB server [ C:/nxp/MCUXpressoIDE_11.6.1_8255/ide/plugins/com.nxp.mcuxpresso.tools.bin.win32_11.6.1.202210030617/binaries//crt_emu_cm_redlink, --server, :10989, -msg-port=58919, -g, -mi, -2, -pK32L2B31xxxxA, -vendor=NXP, --connectscript=kinetisconnect.scp, --reset=, -ProbeHandle=1, -CoreIndex=0, -cache=disable, --flash-hashing, --flash-driver=, -x, C:/Users/yoine/OneDrive - Universidad del Magdalena/Diplomado IoT/Actividades/Modulo 2/frdmk32l2b_led_led_blinky/Debug, --flash-dir, C:/nxp/MCUXpressoIDE_11.6.1_8255/ide/plugins/com.nxp.mcuxpresso.tools.bin.win32_11.6.1.202210030617/binaries/Flash, --flash-dir, C:/Users/yoine/OneDrive - Universidad del Magdalena/Diplomado IoT/Actividades/Modulo 2/.mcuxpressoide_packages_support/K32L2B31xxxxA_support/Flash, --telnet, 3332 ]
+
+!ENTRY com.nxp.mcuxpresso.core.debug 1 0 2022-10-29 11:04:43.337
+!MESSAGE Telnet session connected on port 3332->58922 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2022-10-29 11:06:41.763
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2022-10-29 11:06:42.266
+!MESSAGE RedlinkServer telnet session connected on port 3025->59028 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2022-10-29 11:06:47.450
+!MESSAGE Starting GDB server [ C:/nxp/MCUXpressoIDE_11.6.1_8255/ide/plugins/com.nxp.mcuxpresso.tools.bin.win32_11.6.1.202210030617/binaries//crt_emu_cm_redlink, --server, :10989, -msg-port=59029, -g, -mi, -2, -pK32L2B31xxxxA, -vendor=NXP, --connectscript=kinetisconnect.scp, --reset=, -ProbeHandle=1, -CoreIndex=0, -cache=disable, --flash-hashing, --flash-driver=, -x, C:/Users/yoine/OneDrive - Universidad del Magdalena/Diplomado IoT/Actividades/Modulo 2/frdmk32l2b_led_led_blinky/Debug, --flash-dir, C:/nxp/MCUXpressoIDE_11.6.1_8255/ide/plugins/com.nxp.mcuxpresso.tools.bin.win32_11.6.1.202210030617/binaries/Flash, --flash-dir, C:/Users/yoine/OneDrive - Universidad del Magdalena/Diplomado IoT/Actividades/Modulo 2/.mcuxpressoide_packages_support/K32L2B31xxxxA_support/Flash, --telnet, 3332 ]
+
+!ENTRY com.nxp.mcuxpresso.core.debug 1 0 2022-10-29 11:06:49.966
+!MESSAGE Telnet session connected on port 3332->59032 @ 127.0.0.1
+
+!ENTRY com.nxp.mcuxpresso.core.debug 2 0 2022-10-29 11:07:27.510
+!MESSAGE Termi&nate/Disconnect All is not enabled.
+
+To terminate debug sessions, first select a debug session in the Debug View and then select Terminate again.
+
+!ENTRY com.crt.log 1 0 2022-10-29 11:07:36.088
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2022-10-29 11:07:36.590
+!MESSAGE RedlinkServer telnet session connected on port 3025->59080 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2022-10-29 11:07:41.883
+!MESSAGE Starting GDB server [ C:/nxp/MCUXpressoIDE_11.6.1_8255/ide/plugins/com.nxp.mcuxpresso.tools.bin.win32_11.6.1.202210030617/binaries//crt_emu_cm_redlink, --server, :10989, -msg-port=59081, -g, -mi, -2, -pK32L2B31xxxxA, -vendor=NXP, --connectscript=kinetisconnect.scp, --reset=, -ProbeHandle=1, -CoreIndex=0, -cache=disable, --flash-hashing, --flash-driver=, -x, C:/Users/yoine/OneDrive - Universidad del Magdalena/Diplomado IoT/Actividades/Modulo 2/frdmk32l2b_led_led_blinky/Debug, --flash-dir, C:/nxp/MCUXpressoIDE_11.6.1_8255/ide/plugins/com.nxp.mcuxpresso.tools.bin.win32_11.6.1.202210030617/binaries/Flash, --flash-dir, C:/Users/yoine/OneDrive - Universidad del Magdalena/Diplomado IoT/Actividades/Modulo 2/.mcuxpressoide_packages_support/K32L2B31xxxxA_support/Flash, --telnet, 3332 ]
+
+!ENTRY com.nxp.mcuxpresso.core.debug 1 0 2022-10-29 11:07:44.445
+!MESSAGE Telnet session connected on port 3332->59084 @ 127.0.0.1
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2022-10-29 11:08:11.167
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.ImmediateRequestMonitor@3b909125): Status ERROR: org.eclipse.cdt.dsf.gdb code=10003 Given context: (gdb[11].proc[42000].threadGroup[i1],gdb[11].proc[42000].OSthread[1]).thread[1], is already suspended.' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10003 2022-10-29 11:08:11.168
+!MESSAGE Given context: (gdb[11].proc[42000].threadGroup[i1],gdb[11].proc[42000].OSthread[1]).thread[1], is already suspended.
+
+!ENTRY com.crt.log 1 0 2022-10-29 11:08:20.878
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2022-10-29 11:08:21.382
+!MESSAGE RedlinkServer telnet session connected on port 3025->59117 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2022-10-29 11:08:26.488
+!MESSAGE Starting GDB server [ C:/nxp/MCUXpressoIDE_11.6.1_8255/ide/plugins/com.nxp.mcuxpresso.tools.bin.win32_11.6.1.202210030617/binaries//crt_emu_cm_redlink, --server, :10989, -msg-port=59118, -g, -mi, -2, -pK32L2B31xxxxA, -vendor=NXP, --connectscript=kinetisconnect.scp, --reset=, -ProbeHandle=1, -CoreIndex=0, -cache=disable, --flash-hashing, --flash-driver=, -x, C:/Users/yoine/OneDrive - Universidad del Magdalena/Diplomado IoT/Actividades/Modulo 2/frdmk32l2b_led_led_blinky/Debug, --flash-dir, C:/nxp/MCUXpressoIDE_11.6.1_8255/ide/plugins/com.nxp.mcuxpresso.tools.bin.win32_11.6.1.202210030617/binaries/Flash, --flash-dir, C:/Users/yoine/OneDrive - Universidad del Magdalena/Diplomado IoT/Actividades/Modulo 2/.mcuxpressoide_packages_support/K32L2B31xxxxA_support/Flash, --telnet, 3332 ]
+
+!ENTRY com.nxp.mcuxpresso.core.debug 1 0 2022-10-29 11:08:29.008
+!MESSAGE Telnet session connected on port 3332->59121 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2022-10-29 11:10:01.240
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2022-10-29 11:10:01.759
+!MESSAGE RedlinkServer telnet session connected on port 3025->59192 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2022-10-29 11:10:07.164
+!MESSAGE Starting GDB server [ C:/nxp/MCUXpressoIDE_11.6.1_8255/ide/plugins/com.nxp.mcuxpresso.tools.bin.win32_11.6.1.202210030617/binaries//crt_emu_cm_redlink, --server, :10989, -msg-port=59198, -g, -mi, -2, -pK32L2B31xxxxA, -vendor=NXP, --connectscript=kinetisconnect.scp, --reset=, -ProbeHandle=1, -CoreIndex=0, -cache=disable, --flash-hashing, --flash-driver=, -x, C:/Users/yoine/OneDrive - Universidad del Magdalena/Diplomado IoT/Actividades/Modulo 2/frdmk32l2b_led_led_blinky/Debug, --flash-dir, C:/nxp/MCUXpressoIDE_11.6.1_8255/ide/plugins/com.nxp.mcuxpresso.tools.bin.win32_11.6.1.202210030617/binaries/Flash, --flash-dir, C:/Users/yoine/OneDrive - Universidad del Magdalena/Diplomado IoT/Actividades/Modulo 2/.mcuxpressoide_packages_support/K32L2B31xxxxA_support/Flash, --telnet, 3332 ]
+
+!ENTRY com.nxp.mcuxpresso.core.debug 1 0 2022-10-29 11:10:09.680
+!MESSAGE Telnet session connected on port 3332->59201 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2022-10-29 11:11:10.235
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2022-10-29 11:11:10.739
+!MESSAGE RedlinkServer telnet session connected on port 3025->59244 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2022-10-29 11:11:16.065
+!MESSAGE Starting GDB server [ C:/nxp/MCUXpressoIDE_11.6.1_8255/ide/plugins/com.nxp.mcuxpresso.tools.bin.win32_11.6.1.202210030617/binaries//crt_emu_cm_redlink, --server, :10989, -msg-port=59247, -g, -mi, -2, -pK32L2B31xxxxA, -vendor=NXP, --connectscript=kinetisconnect.scp, --reset=, -ProbeHandle=1, -CoreIndex=0, -cache=disable, --flash-hashing, --flash-driver=, -x, C:/Users/yoine/OneDrive - Universidad del Magdalena/Diplomado IoT/Actividades/Modulo 2/frdmk32l2b_led_led_blinky/Debug, --flash-dir, C:/nxp/MCUXpressoIDE_11.6.1_8255/ide/plugins/com.nxp.mcuxpresso.tools.bin.win32_11.6.1.202210030617/binaries/Flash, --flash-dir, C:/Users/yoine/OneDrive - Universidad del Magdalena/Diplomado IoT/Actividades/Modulo 2/.mcuxpressoide_packages_support/K32L2B31xxxxA_support/Flash, --telnet, 3332 ]
+
+!ENTRY com.nxp.mcuxpresso.core.debug 1 0 2022-10-29 11:11:18.578
+!MESSAGE Telnet session connected on port 3332->59250 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2022-10-29 11:12:19.749
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2022-10-29 11:12:20.252
+!MESSAGE RedlinkServer telnet session connected on port 3025->59314 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2022-10-29 11:12:25.543
+!MESSAGE Starting GDB server [ C:/nxp/MCUXpressoIDE_11.6.1_8255/ide/plugins/com.nxp.mcuxpresso.tools.bin.win32_11.6.1.202210030617/binaries//crt_emu_cm_redlink, --server, :10989, -msg-port=59322, -g, -mi, -2, -pK32L2B31xxxxA, -vendor=NXP, --connectscript=kinetisconnect.scp, --reset=, -ProbeHandle=1, -CoreIndex=0, -cache=disable, --flash-hashing, --flash-driver=, -x, C:/Users/yoine/OneDrive - Universidad del Magdalena/Diplomado IoT/Actividades/Modulo 2/frdmk32l2b_led_led_blinky/Debug, --flash-dir, C:/nxp/MCUXpressoIDE_11.6.1_8255/ide/plugins/com.nxp.mcuxpresso.tools.bin.win32_11.6.1.202210030617/binaries/Flash, --flash-dir, C:/Users/yoine/OneDrive - Universidad del Magdalena/Diplomado IoT/Actividades/Modulo 2/.mcuxpressoide_packages_support/K32L2B31xxxxA_support/Flash, --telnet, 3332 ]
+
+!ENTRY com.nxp.mcuxpresso.core.debug 1 0 2022-10-29 11:12:28.103
+!MESSAGE Telnet session connected on port 3332->59325 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2022-10-29 11:13:43.760
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2022-10-29 11:13:44.263
+!MESSAGE RedlinkServer telnet session connected on port 3025->59416 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2022-10-29 11:13:49.611
+!MESSAGE Starting GDB server [ C:/nxp/MCUXpressoIDE_11.6.1_8255/ide/plugins/com.nxp.mcuxpresso.tools.bin.win32_11.6.1.202210030617/binaries//crt_emu_cm_redlink, --server, :10989, -msg-port=59426, -g, -mi, -2, -pK32L2B31xxxxA, -vendor=NXP, --connectscript=kinetisconnect.scp, --reset=, -ProbeHandle=1, -CoreIndex=0, -cache=disable, --flash-hashing, --flash-driver=, -x, C:/Users/yoine/OneDrive - Universidad del Magdalena/Diplomado IoT/Actividades/Modulo 2/frdmk32l2b_led_led_blinky/Debug, --flash-dir, C:/nxp/MCUXpressoIDE_11.6.1_8255/ide/plugins/com.nxp.mcuxpresso.tools.bin.win32_11.6.1.202210030617/binaries/Flash, --flash-dir, C:/Users/yoine/OneDrive - Universidad del Magdalena/Diplomado IoT/Actividades/Modulo 2/.mcuxpressoide_packages_support/K32L2B31xxxxA_support/Flash, --telnet, 3332 ]
+
+!ENTRY com.nxp.mcuxpresso.core.debug 1 0 2022-10-29 11:13:52.129
+!MESSAGE Telnet session connected on port 3332->59430 @ 127.0.0.1
+
+!ENTRY com.crt.log 4 -1 2022-10-29 11:22:31.176
+!MESSAGE Attempted to beginRule: R/, does not match outer scope rule: P/frdmk32l2b_led_led_blinky
+!STACK 0
+java.lang.Exception: org.eclipse.core.runtime.CoreException: Attempted to beginRule: R/, does not match outer scope rule: P/frdmk32l2b_led_led_blinky
+	at com.crt.utils.general.Reporter.log(Reporter.java:591)
+	at com.nxp.mcuxpresso.core.datamodels.SDKChipVendorDatabase.save(SDKChipVendorDatabase.java:521)
+	at com.crt.config.database.ChipVendor.save(ChipVendor.java:751)
+	at com.crt.config.database.TargetConfig.save(TargetConfig.java:1534)
+	at com.crt.config.SaveViewInfo.saving(SaveViewInfo.java:102)
+	at org.eclipse.core.internal.resources.SaveManager.executeLifecycle(SaveManager.java:387)
+	at org.eclipse.core.internal.resources.SaveManager$1.run(SaveManager.java:204)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.resources.SaveManager.broadcastLifecycle(SaveManager.java:207)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1164)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1143)
+	at org.eclipse.core.internal.resources.Project.close(Project.java:197)
+	at org.eclipse.ui.actions.CloseResourceAction.invokeOperation(CloseResourceAction.java:171)
+	at org.eclipse.ui.actions.WorkspaceAction.execute(WorkspaceAction.java:159)
+	at org.eclipse.ui.actions.WorkspaceAction$1.runInWorkspace(WorkspaceAction.java:459)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.eclipse.core.runtime.CoreException: Attempted to beginRule: R/, does not match outer scope rule: P/frdmk32l2b_led_led_blinky
+	at org.eclipse.cdt.internal.core.settings.model.ExceptionFactory.createCoreException(ExceptionFactory.java:29)
+	at org.eclipse.cdt.internal.core.settings.model.AbstractCProjectDescriptionStorage.setProjectDescription(AbstractCProjectDescriptionStorage.java:211)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionStorageManager.setProjectDescription(CProjectDescriptionStorageManager.java:153)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.setProjectDescription(CProjectDescriptionManager.java:867)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.setProjectDescription(CProjectDescriptionManager.java:817)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.setProjectDescription(CProjectDescriptionManager.java:810)
+	at org.eclipse.cdt.core.model.CoreModel.setProjectDescription(CoreModel.java:1400)
+	at com.nxp.mcuxpresso.core.datamodels.SDKChipVendorDatabase.save(SDKChipVendorDatabase.java:516)
+	... 15 more
+Caused by: java.lang.IllegalArgumentException: Attempted to beginRule: R/, does not match outer scope rule: P/frdmk32l2b_led_led_blinky
+	at org.eclipse.core.runtime.Assert.isLegal(Assert.java:66)
+	at org.eclipse.core.internal.jobs.ThreadJob.illegalPush(ThreadJob.java:137)
+	at org.eclipse.core.internal.jobs.ThreadJob.push(ThreadJob.java:401)
+	at org.eclipse.core.internal.jobs.ImplicitJobs.begin(ImplicitJobs.java:66)
+	at org.eclipse.core.internal.jobs.JobManager.beginRule(JobManager.java:311)
+	at org.eclipse.core.internal.resources.WorkManager.checkIn(WorkManager.java:124)
+	at org.eclipse.core.internal.resources.Workspace.prepareOperation(Workspace.java:2263)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2308)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2338)
+	at org.eclipse.cdt.internal.core.model.CModelOperation.runOperation(CModelOperation.java:644)
+	at org.eclipse.cdt.internal.core.settings.model.AbstractCProjectDescriptionStorage.setProjectDescription(AbstractCProjectDescriptionStorage.java:209)
+	... 21 more
+
+!ENTRY org.eclipse.debug.ui 4 120 2022-10-29 11:22:32.334
+!MESSAGE Error logged from Debug UI: 
+!STACK 1
+org.eclipse.debug.core.DebugException: Launch configuration frdmk32l2b_led_led_blinky LinkServer Debug at file:/C:/Users/yoine/OneDrive%20-%20Universidad%20del%20Magdalena/Diplomado%20IoT/Actividades/Modulo%202/frdmk32l2b_led_led_blinky/frdmk32l2b_led_led_blinky%20LinkServer%20Debug.launch does not exist.
+	at org.eclipse.debug.internal.core.LaunchManager.createDebugException(LaunchManager.java:885)
+	at org.eclipse.debug.internal.core.LaunchManager.getInfo(LaunchManager.java:1368)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.getInfo(LaunchConfiguration.java:488)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.getType(LaunchConfiguration.java:643)
+	at org.eclipse.debug.internal.ui.DefaultLabelProvider.getImageKey(DefaultLabelProvider.java:172)
+	at org.eclipse.debug.internal.ui.DefaultLabelProvider.getImage(DefaultLabelProvider.java:73)
+	at org.eclipse.debug.internal.ui.DelegatingModelPresentation.getDefaultImage(DelegatingModelPresentation.java:186)
+	at org.eclipse.debug.internal.ui.DelegatingModelPresentation.getImage(DelegatingModelPresentation.java:144)
+	at org.eclipse.debug.internal.ui.views.launch.DebugElementHelper.getImageDescriptor(DebugElementHelper.java:73)
+	at org.eclipse.debug.internal.ui.model.elements.DebugElementLabelProvider.getImageDescriptor(DebugElementLabelProvider.java:80)
+	at org.eclipse.debug.internal.ui.model.elements.ElementLabelProvider.getImageDescriptor(ElementLabelProvider.java:274)
+	at org.eclipse.debug.internal.ui.model.elements.ElementLabelProvider.retrieveLabel(ElementLabelProvider.java:201)
+	at org.eclipse.debug.internal.ui.model.elements.ElementLabelProvider$LabelUpdater.run(ElementLabelProvider.java:147)
+	at org.eclipse.debug.internal.ui.model.elements.ElementLabelProvider$LabelJob.run(ElementLabelProvider.java:74)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.debug.core 4 5012 2022-10-29 11:22:32.336
+!MESSAGE Launch configuration frdmk32l2b_led_led_blinky LinkServer Debug at file:/C:/Users/yoine/OneDrive%20-%20Universidad%20del%20Magdalena/Diplomado%20IoT/Actividades/Modulo%202/frdmk32l2b_led_led_blinky/frdmk32l2b_led_led_blinky%20LinkServer%20Debug.launch does not exist.
+
+!ENTRY org.eclipse.debug.core 4 2 2022-10-29 11:22:32.336
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.debug.core".
+!STACK 0
+java.lang.NullPointerException
+	at com.nxp.mcuxpresso.core.debug.services.MCXTelnetService.launchesChanged(MCXTelnetService.java:341)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchesNotifier.run(LaunchManager.java:302)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchesNotifier.notify(LaunchManager.java:262)
+	at org.eclipse.debug.internal.core.LaunchManager.fireUpdate(LaunchManager.java:1038)
+	at org.eclipse.debug.core.Launch.fireChanged(Launch.java:466)
+	at org.eclipse.cdt.dsf.debug.model.DsfLaunch.access$0(DsfLaunch.java:1)
+	at org.eclipse.cdt.dsf.debug.model.DsfLaunch.lambda$0(DsfLaunch.java:42)
+	at org.eclipse.debug.core.DebugPlugin$AsynchRunner.run(DebugPlugin.java:1175)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.core.DebugPlugin$AsynchRunner.async(DebugPlugin.java:1162)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:478)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.debug.core 4 120 2022-10-29 11:22:32.338
+!MESSAGE An exception occurred during launch change notification.
+!STACK 0
+java.lang.NullPointerException
+	at com.nxp.mcuxpresso.core.debug.services.MCXTelnetService.launchesChanged(MCXTelnetService.java:341)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchesNotifier.run(LaunchManager.java:302)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchesNotifier.notify(LaunchManager.java:262)
+	at org.eclipse.debug.internal.core.LaunchManager.fireUpdate(LaunchManager.java:1038)
+	at org.eclipse.debug.core.Launch.fireChanged(Launch.java:466)
+	at org.eclipse.cdt.dsf.debug.model.DsfLaunch.access$0(DsfLaunch.java:1)
+	at org.eclipse.cdt.dsf.debug.model.DsfLaunch.lambda$0(DsfLaunch.java:42)
+	at org.eclipse.debug.core.DebugPlugin$AsynchRunner.run(DebugPlugin.java:1175)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.core.DebugPlugin$AsynchRunner.async(DebugPlugin.java:1162)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:478)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.debug.core 4 5012 2022-10-29 11:22:32.348
+!MESSAGE Launch configuration frdmk32l2b_led_led_blinky LinkServer Debug at file:/C:/Users/yoine/OneDrive%20-%20Universidad%20del%20Magdalena/Diplomado%20IoT/Actividades/Modulo%202/frdmk32l2b_led_led_blinky/frdmk32l2b_led_led_blinky%20LinkServer%20Debug.launch does not exist.
+
+!ENTRY org.eclipse.egit.ui 4 0 2022-10-29 11:25:37.893
+!MESSAGE Connecting Git team provider failed. See log for details.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Connecting Git team provider failed. See log for details.
+	at org.eclipse.egit.core.op.ConnectProviderOperation.execute(ConnectProviderOperation.java:118)
+	at org.eclipse.egit.ui.internal.clone.GitImportWizard$10.run(GitImportWizard.java:334)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2313)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2333)
+	at org.eclipse.egit.ui.internal.clone.GitImportWizard.importProjects(GitImportWizard.java:340)
+	at org.eclipse.egit.ui.internal.clone.GitImportWizard$4.run(GitImportWizard.java:206)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+Contains: Error connecting project FRDM_K32L2B3_IoT_RTU_demo, suggested path 'C:\Users\yoine\OneDrive - Universidad del Magdalena\Diplomado IoT\Repositorio\Repositorio_docente\FRDM_K32L2B3_IoT_RTU_demo\FRDM_K32L2B3_IoT_RTU_demo\.git' does not match found Git repositories '[RepositoryMapping[<empty> -> '../.git', absolute path: 'C:/Users/yoine/OneDrive - Universidad del Magdalena/Diplomado IoT/Repositorio/Repositorio_docente/FRDM_K32L2B3_IoT_RTU_demo/.git' ]]'.
+!SUBENTRY 1 org.eclipse.egit.core 4 0 2022-10-29 11:25:37.893
+!MESSAGE Connecting Git team provider failed. See log for details.
+!SUBENTRY 2 org.eclipse.egit.core 4 0 2022-10-29 11:25:37.893
+!MESSAGE Error connecting project FRDM_K32L2B3_IoT_RTU_demo, suggested path 'C:\Users\yoine\OneDrive - Universidad del Magdalena\Diplomado IoT\Repositorio\Repositorio_docente\FRDM_K32L2B3_IoT_RTU_demo\FRDM_K32L2B3_IoT_RTU_demo\.git' does not match found Git repositories '[RepositoryMapping[<empty> -> '../.git', absolute path: 'C:/Users/yoine/OneDrive - Universidad del Magdalena/Diplomado IoT/Repositorio/Repositorio_docente/FRDM_K32L2B3_IoT_RTU_demo/.git' ]]'.
+
+!ENTRY org.eclipse.egit.ui 4 0 2022-10-29 11:25:52.321
+!MESSAGE Resource '/FRDM_K32L2B3_IoT_RTU_demo' already exists.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/FRDM_K32L2B3_IoT_RTU_demo)[374]: java.lang.Exception: Resource '/FRDM_K32L2B3_IoT_RTU_demo' already exists.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Resource.checkDoesNotExist(Resource.java:309)
+	at org.eclipse.core.internal.resources.Resource.checkDoesNotExist(Resource.java:296)
+	at org.eclipse.core.internal.resources.Project.assertCreateRequirements(Project.java:56)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:266)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:252)
+	at org.eclipse.egit.ui.internal.clone.GitImportWizard$10.run(GitImportWizard.java:330)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2313)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2333)
+	at org.eclipse.egit.ui.internal.clone.GitImportWizard.importProjects(GitImportWizard.java:340)
+	at org.eclipse.egit.ui.internal.clone.GitImportWizard$4.run(GitImportWizard.java:206)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+!SUBENTRY 1 org.eclipse.core.resources 4 374 2022-10-29 11:25:52.322
+!MESSAGE Resource '/FRDM_K32L2B3_IoT_RTU_demo' already exists.
+!STACK 0
+java.lang.Exception: Resource '/FRDM_K32L2B3_IoT_RTU_demo' already exists.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Resource.checkDoesNotExist(Resource.java:309)
+	at org.eclipse.core.internal.resources.Resource.checkDoesNotExist(Resource.java:296)
+	at org.eclipse.core.internal.resources.Project.assertCreateRequirements(Project.java:56)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:266)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:252)
+	at org.eclipse.egit.ui.internal.clone.GitImportWizard$10.run(GitImportWizard.java:330)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2313)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2333)
+	at org.eclipse.egit.ui.internal.clone.GitImportWizard.importProjects(GitImportWizard.java:340)
+	at org.eclipse.egit.ui.internal.clone.GitImportWizard$4.run(GitImportWizard.java:206)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+
+!ENTRY org.eclipse.egit.ui 4 0 2022-10-29 11:26:02.494
+!MESSAGE Resource '/FRDM_K32L2B3_IoT_RTU_demo' already exists.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/FRDM_K32L2B3_IoT_RTU_demo)[374]: java.lang.Exception: Resource '/FRDM_K32L2B3_IoT_RTU_demo' already exists.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Resource.checkDoesNotExist(Resource.java:309)
+	at org.eclipse.core.internal.resources.Resource.checkDoesNotExist(Resource.java:296)
+	at org.eclipse.core.internal.resources.Project.assertCreateRequirements(Project.java:56)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:266)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:252)
+	at org.eclipse.egit.ui.internal.clone.GitImportWizard$10.run(GitImportWizard.java:330)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2313)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2333)
+	at org.eclipse.egit.ui.internal.clone.GitImportWizard.importProjects(GitImportWizard.java:340)
+	at org.eclipse.egit.ui.internal.clone.GitImportWizard$4.run(GitImportWizard.java:206)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+!SUBENTRY 1 org.eclipse.core.resources 4 374 2022-10-29 11:26:02.494
+!MESSAGE Resource '/FRDM_K32L2B3_IoT_RTU_demo' already exists.
+!STACK 0
+java.lang.Exception: Resource '/FRDM_K32L2B3_IoT_RTU_demo' already exists.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Resource.checkDoesNotExist(Resource.java:309)
+	at org.eclipse.core.internal.resources.Resource.checkDoesNotExist(Resource.java:296)
+	at org.eclipse.core.internal.resources.Project.assertCreateRequirements(Project.java:56)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:266)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:252)
+	at org.eclipse.egit.ui.internal.clone.GitImportWizard$10.run(GitImportWizard.java:330)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2313)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2333)
+	at org.eclipse.egit.ui.internal.clone.GitImportWizard.importProjects(GitImportWizard.java:340)
+	at org.eclipse.egit.ui.internal.clone.GitImportWizard$4.run(GitImportWizard.java:206)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+
+!ENTRY org.eclipse.egit.ui 4 0 2022-10-29 11:26:15.099
+!MESSAGE Resource '/FRDM_K32L2B3_IoT_RTU_demo' already exists.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/FRDM_K32L2B3_IoT_RTU_demo)[374]: java.lang.Exception: Resource '/FRDM_K32L2B3_IoT_RTU_demo' already exists.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Resource.checkDoesNotExist(Resource.java:309)
+	at org.eclipse.core.internal.resources.Resource.checkDoesNotExist(Resource.java:296)
+	at org.eclipse.core.internal.resources.Project.assertCreateRequirements(Project.java:56)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:266)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:252)
+	at org.eclipse.egit.ui.internal.clone.GitImportWizard$10.run(GitImportWizard.java:330)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2313)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2333)
+	at org.eclipse.egit.ui.internal.clone.GitImportWizard.importProjects(GitImportWizard.java:340)
+	at org.eclipse.egit.ui.internal.clone.GitImportWizard$4.run(GitImportWizard.java:206)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+!SUBENTRY 1 org.eclipse.core.resources 4 374 2022-10-29 11:26:15.099
+!MESSAGE Resource '/FRDM_K32L2B3_IoT_RTU_demo' already exists.
+!STACK 0
+java.lang.Exception: Resource '/FRDM_K32L2B3_IoT_RTU_demo' already exists.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Resource.checkDoesNotExist(Resource.java:309)
+	at org.eclipse.core.internal.resources.Resource.checkDoesNotExist(Resource.java:296)
+	at org.eclipse.core.internal.resources.Project.assertCreateRequirements(Project.java:56)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:266)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:252)
+	at org.eclipse.egit.ui.internal.clone.GitImportWizard$10.run(GitImportWizard.java:330)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2313)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2333)
+	at org.eclipse.egit.ui.internal.clone.GitImportWizard.importProjects(GitImportWizard.java:340)
+	at org.eclipse.egit.ui.internal.clone.GitImportWizard$4.run(GitImportWizard.java:206)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+!SESSION 2022-11-02 08:21:58.571 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.11
+java.vendor=AdoptOpenJDK
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_CO
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.egit.ui 2 0 2022-11-02 08:22:25.234
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\yoine'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2022-11-02 08:26:15.133 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.11
+java.vendor=AdoptOpenJDK
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_CO
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.egit.ui 2 0 2022-11-02 08:26:23.118
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\yoine'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY com.crt.log 4 -1 2022-11-02 09:11:23.727
+!MESSAGE Attempted to beginRule: R/, does not match outer scope rule: P/frdmk32l2b_led_led_blinky
+!STACK 0
+java.lang.Exception: org.eclipse.core.runtime.CoreException: Attempted to beginRule: R/, does not match outer scope rule: P/frdmk32l2b_led_led_blinky
+	at com.crt.utils.general.Reporter.log(Reporter.java:591)
+	at com.nxp.mcuxpresso.core.datamodels.SDKChipVendorDatabase.save(SDKChipVendorDatabase.java:521)
+	at com.crt.config.database.ChipVendor.save(ChipVendor.java:751)
+	at com.crt.config.database.TargetConfig.save(TargetConfig.java:1534)
+	at com.crt.config.SaveViewInfo.saving(SaveViewInfo.java:102)
+	at org.eclipse.core.internal.resources.SaveManager.executeLifecycle(SaveManager.java:387)
+	at org.eclipse.core.internal.resources.SaveManager$1.run(SaveManager.java:204)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.resources.SaveManager.broadcastLifecycle(SaveManager.java:207)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1164)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1143)
+	at org.eclipse.core.internal.resources.Project.close(Project.java:197)
+	at org.eclipse.ui.actions.CloseResourceAction.invokeOperation(CloseResourceAction.java:171)
+	at org.eclipse.ui.actions.WorkspaceAction.execute(WorkspaceAction.java:159)
+	at org.eclipse.ui.actions.WorkspaceAction$1.runInWorkspace(WorkspaceAction.java:459)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.eclipse.core.runtime.CoreException: Attempted to beginRule: R/, does not match outer scope rule: P/frdmk32l2b_led_led_blinky
+	at org.eclipse.cdt.internal.core.settings.model.ExceptionFactory.createCoreException(ExceptionFactory.java:29)
+	at org.eclipse.cdt.internal.core.settings.model.AbstractCProjectDescriptionStorage.setProjectDescription(AbstractCProjectDescriptionStorage.java:211)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionStorageManager.setProjectDescription(CProjectDescriptionStorageManager.java:153)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.setProjectDescription(CProjectDescriptionManager.java:867)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.setProjectDescription(CProjectDescriptionManager.java:817)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.setProjectDescription(CProjectDescriptionManager.java:810)
+	at org.eclipse.cdt.core.model.CoreModel.setProjectDescription(CoreModel.java:1400)
+	at com.nxp.mcuxpresso.core.datamodels.SDKChipVendorDatabase.save(SDKChipVendorDatabase.java:516)
+	... 15 more
+Caused by: java.lang.IllegalArgumentException: Attempted to beginRule: R/, does not match outer scope rule: P/frdmk32l2b_led_led_blinky
+	at org.eclipse.core.runtime.Assert.isLegal(Assert.java:66)
+	at org.eclipse.core.internal.jobs.ThreadJob.illegalPush(ThreadJob.java:137)
+	at org.eclipse.core.internal.jobs.ThreadJob.push(ThreadJob.java:401)
+	at org.eclipse.core.internal.jobs.ImplicitJobs.begin(ImplicitJobs.java:66)
+	at org.eclipse.core.internal.jobs.JobManager.beginRule(JobManager.java:311)
+	at org.eclipse.core.internal.resources.WorkManager.checkIn(WorkManager.java:124)
+	at org.eclipse.core.internal.resources.Workspace.prepareOperation(Workspace.java:2263)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2308)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2338)
+	at org.eclipse.cdt.internal.core.model.CModelOperation.runOperation(CModelOperation.java:644)
+	at org.eclipse.cdt.internal.core.settings.model.AbstractCProjectDescriptionStorage.setProjectDescription(AbstractCProjectDescriptionStorage.java:209)
+	... 21 more
+
+!ENTRY com.crt.log 1 0 2022-11-02 09:20:34.077
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2022-11-02 09:20:34.582
+!MESSAGE RedlinkServer telnet session connected on port 3025->55471 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2022-11-02 09:20:41.150
+!MESSAGE Starting GDB server [ C:/nxp/MCUXpressoIDE_11.6.1_8255/ide/plugins/com.nxp.mcuxpresso.tools.bin.win32_11.6.1.202210030617/binaries//crt_emu_cm_redlink, --server, :10989, -msg-port=55478, -g, -mi, -2, -pK32L2B31xxxxA, -vendor=NXP, --connectscript=kinetisconnect.scp, --reset=, -ProbeHandle=1, -CoreIndex=0, -cache=disable, --flash-hashing, --flash-driver=, -x, C:/Users/yoine/OneDrive - Universidad del Magdalena/Diplomado IoT/Actividades/Modulo 2/frdmk32l2b_hello_word_hello_world/Debug, --flash-dir, C:/nxp/MCUXpressoIDE_11.6.1_8255/ide/plugins/com.nxp.mcuxpresso.tools.bin.win32_11.6.1.202210030617/binaries/Flash, --flash-dir, C:/Users/yoine/OneDrive - Universidad del Magdalena/Diplomado IoT/Actividades/Modulo 2/.mcuxpressoide_packages_support/K32L2B31xxxxA_support/Flash, --telnet, 3330 ]
+
+!ENTRY com.nxp.mcuxpresso.core.debug 1 0 2022-11-02 09:20:43.708
+!MESSAGE Telnet session connected on port 3330->55483 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2022-11-02 09:24:27.142
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2022-11-02 09:24:27.645
+!MESSAGE RedlinkServer telnet session connected on port 3025->55702 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2022-11-02 09:24:32.957
+!MESSAGE Starting GDB server [ C:/nxp/MCUXpressoIDE_11.6.1_8255/ide/plugins/com.nxp.mcuxpresso.tools.bin.win32_11.6.1.202210030617/binaries//crt_emu_cm_redlink, --server, :10989, -msg-port=55719, -g, -mi, -2, -pK32L2B31xxxxA, -vendor=NXP, --connectscript=kinetisconnect.scp, --reset=, -ProbeHandle=1, -CoreIndex=0, -cache=disable, --flash-hashing, --flash-driver=, -x, C:/Users/yoine/OneDrive - Universidad del Magdalena/Diplomado IoT/Actividades/Modulo 2/frdmk32l2b_hello_word_hello_world/Debug, --flash-dir, C:/nxp/MCUXpressoIDE_11.6.1_8255/ide/plugins/com.nxp.mcuxpresso.tools.bin.win32_11.6.1.202210030617/binaries/Flash, --flash-dir, C:/Users/yoine/OneDrive - Universidad del Magdalena/Diplomado IoT/Actividades/Modulo 2/.mcuxpressoide_packages_support/K32L2B31xxxxA_support/Flash, --telnet, 3330 ]
+
+!ENTRY com.nxp.mcuxpresso.core.debug 1 0 2022-11-02 09:24:35.469
+!MESSAGE Telnet session connected on port 3330->55732 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2022-11-02 09:44:34.999
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2022-11-02 09:44:35.503
+!MESSAGE RedlinkServer telnet session connected on port 3025->57612 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2022-11-02 09:44:40.983
+!MESSAGE Starting GDB server [ C:/nxp/MCUXpressoIDE_11.6.1_8255/ide/plugins/com.nxp.mcuxpresso.tools.bin.win32_11.6.1.202210030617/binaries//crt_emu_cm_redlink, --server, :10989, -msg-port=57615, -g, -mi, -2, -pK32L2B31xxxxA, -vendor=NXP, --connectscript=kinetisconnect.scp, --reset=, -ProbeHandle=1, -CoreIndex=0, -cache=disable, --flash-hashing, --flash-driver=, -x, C:/Users/yoine/OneDrive - Universidad del Magdalena/Diplomado IoT/Actividades/Modulo 2/frdmk32l2b_led_led_blinky/Debug, --flash-dir, C:/nxp/MCUXpressoIDE_11.6.1_8255/ide/plugins/com.nxp.mcuxpresso.tools.bin.win32_11.6.1.202210030617/binaries/Flash, --flash-dir, C:/Users/yoine/OneDrive - Universidad del Magdalena/Diplomado IoT/Actividades/Modulo 2/.mcuxpressoide_packages_support/K32L2B31xxxxA_support/Flash, --telnet, 3330 ]
+
+!ENTRY com.nxp.mcuxpresso.core.debug 1 0 2022-11-02 09:44:43.494
+!MESSAGE Telnet session connected on port 3330->57619 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2022-11-02 09:45:33.332
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2022-11-02 09:45:33.835
+!MESSAGE RedlinkServer telnet session connected on port 3025->57661 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2022-11-02 09:45:39.439
+!MESSAGE Starting GDB server [ C:/nxp/MCUXpressoIDE_11.6.1_8255/ide/plugins/com.nxp.mcuxpresso.tools.bin.win32_11.6.1.202210030617/binaries//crt_emu_cm_redlink, --server, :10989, -msg-port=57679, -g, -mi, -2, -pK32L2B31xxxxA, -vendor=NXP, --connectscript=kinetisconnect.scp, --reset=, -ProbeHandle=1, -CoreIndex=0, -cache=disable, --flash-hashing, --flash-driver=, -x, C:/Users/yoine/OneDrive - Universidad del Magdalena/Diplomado IoT/Actividades/Modulo 2/frdmk32l2b_led_led_blinky/Debug, --flash-dir, C:/nxp/MCUXpressoIDE_11.6.1_8255/ide/plugins/com.nxp.mcuxpresso.tools.bin.win32_11.6.1.202210030617/binaries/Flash, --flash-dir, C:/Users/yoine/OneDrive - Universidad del Magdalena/Diplomado IoT/Actividades/Modulo 2/.mcuxpressoide_packages_support/K32L2B31xxxxA_support/Flash, --telnet, 3330 ]
+
+!ENTRY com.nxp.mcuxpresso.core.debug 1 0 2022-11-02 09:45:41.952
+!MESSAGE Telnet session connected on port 3330->57682 @ 127.0.0.1
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 4 0 2022-11-02 10:06:15.261
+!MESSAGE 16: Target error from status-poll
+!SUBENTRY 1 com.nxp.mcuxpresso.core.debug.support.linkserver 4 0 2022-11-02 10:06:15.261
+!MESSAGE 16: Target error from status-poll
+!SUBENTRY 1 com.nxp.mcuxpresso.core.debug.support.linkserver 4 0 2022-11-02 10:06:15.261
+!MESSAGE Hardware Transfer Error
+!SUBENTRY 1 com.nxp.mcuxpresso.core.debug.support.linkserver 4 0 2022-11-02 10:06:15.261
+!MESSAGE Debugging context: frdmk32l2b_led_led_blinky LinkServer Debug
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2022-11-02 10:13:36.216
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.ImmediateRequestMonitor@57473847): Status ERROR: org.eclipse.cdt.dsf.gdb code=10004 Failed to execute MI command:
+-exec-interrupt
+Error message from debugger back end:
+Stopping Thread 1 failed: T06thread:1; java.lang.Exception: Stopping Thread 1 failed: T06thread:1;' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10004 2022-11-02 10:13:36.216
+!MESSAGE Failed to execute MI command:
+-exec-interrupt
+Error message from debugger back end:
+Stopping Thread 1 failed: T06thread:1;
+!STACK 0
+java.lang.Exception: Stopping Thread 1 failed: T06thread:1;
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.processMIOutput(AbstractMIControl.java:1013)
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.run(AbstractMIControl.java:842)
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2022-11-02 10:13:37.148
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.gdb.service.GDBRunControl_7_0_NS$16@55eb310): Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Connection is shut down' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2022-11-02 10:13:37.148
+!MESSAGE Connection is shut down
+
+!ENTRY com.crt.log 1 0 2022-11-02 10:13:37.602
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2022-11-02 10:13:38.107
+!MESSAGE RedlinkServer telnet session connected on port 3025->59867 @ 127.0.0.1
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 4 0 2022-11-02 10:13:38.110
+!MESSAGE Unable to parse ProbeList output to get probe ref count: []
+!SESSION 2022-11-04 14:26:46.326 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.11
+java.vendor=AdoptOpenJDK
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_CO
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.egit.ui 2 0 2022-11-04 14:27:13.801
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\yoine'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY com.crt.log 4 -1 2022-11-04 15:48:08.348
+!MESSAGE Attempted to beginRule: R/, does not match outer scope rule: P/frdmk32l2b_hello_word_hello_world
+!STACK 0
+java.lang.Exception: org.eclipse.core.runtime.CoreException: Attempted to beginRule: R/, does not match outer scope rule: P/frdmk32l2b_hello_word_hello_world
+	at com.crt.utils.general.Reporter.log(Reporter.java:591)
+	at com.nxp.mcuxpresso.core.datamodels.SDKChipVendorDatabase.save(SDKChipVendorDatabase.java:521)
+	at com.crt.config.database.ChipVendor.save(ChipVendor.java:751)
+	at com.crt.config.database.TargetConfig.save(TargetConfig.java:1534)
+	at com.crt.config.SaveViewInfo.saving(SaveViewInfo.java:102)
+	at org.eclipse.core.internal.resources.SaveManager.executeLifecycle(SaveManager.java:387)
+	at org.eclipse.core.internal.resources.SaveManager$1.run(SaveManager.java:204)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.resources.SaveManager.broadcastLifecycle(SaveManager.java:207)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1164)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1143)
+	at org.eclipse.core.internal.resources.Project.close(Project.java:197)
+	at org.eclipse.ui.actions.CloseResourceAction.invokeOperation(CloseResourceAction.java:171)
+	at org.eclipse.ui.actions.WorkspaceAction.execute(WorkspaceAction.java:159)
+	at org.eclipse.ui.actions.WorkspaceAction$1.runInWorkspace(WorkspaceAction.java:459)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.eclipse.core.runtime.CoreException: Attempted to beginRule: R/, does not match outer scope rule: P/frdmk32l2b_hello_word_hello_world
+	at org.eclipse.cdt.internal.core.settings.model.ExceptionFactory.createCoreException(ExceptionFactory.java:29)
+	at org.eclipse.cdt.internal.core.settings.model.AbstractCProjectDescriptionStorage.setProjectDescription(AbstractCProjectDescriptionStorage.java:211)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionStorageManager.setProjectDescription(CProjectDescriptionStorageManager.java:153)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.setProjectDescription(CProjectDescriptionManager.java:867)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.setProjectDescription(CProjectDescriptionManager.java:817)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.setProjectDescription(CProjectDescriptionManager.java:810)
+	at org.eclipse.cdt.core.model.CoreModel.setProjectDescription(CoreModel.java:1400)
+	at com.nxp.mcuxpresso.core.datamodels.SDKChipVendorDatabase.save(SDKChipVendorDatabase.java:516)
+	... 15 more
+Caused by: java.lang.IllegalArgumentException: Attempted to beginRule: R/, does not match outer scope rule: P/frdmk32l2b_hello_word_hello_world
+	at org.eclipse.core.runtime.Assert.isLegal(Assert.java:66)
+	at org.eclipse.core.internal.jobs.ThreadJob.illegalPush(ThreadJob.java:137)
+	at org.eclipse.core.internal.jobs.ThreadJob.push(ThreadJob.java:401)
+	at org.eclipse.core.internal.jobs.ImplicitJobs.begin(ImplicitJobs.java:66)
+	at org.eclipse.core.internal.jobs.JobManager.beginRule(JobManager.java:311)
+	at org.eclipse.core.internal.resources.WorkManager.checkIn(WorkManager.java:124)
+	at org.eclipse.core.internal.resources.Workspace.prepareOperation(Workspace.java:2263)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2308)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2338)
+	at org.eclipse.cdt.internal.core.model.CModelOperation.runOperation(CModelOperation.java:644)
+	at org.eclipse.cdt.internal.core.settings.model.AbstractCProjectDescriptionStorage.setProjectDescription(AbstractCProjectDescriptionStorage.java:209)
+	... 21 more
+
+!ENTRY com.crt.log 1 0 2022-11-04 16:09:41.244
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2022-11-04 16:09:41.748
+!MESSAGE RedlinkServer telnet session connected on port 3025->57735 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2022-11-04 16:09:47.995
+!MESSAGE Starting GDB server [ C:/nxp/MCUXpressoIDE_11.6.1_8255/ide/plugins/com.nxp.mcuxpresso.tools.bin.win32_11.6.1.202210030617/binaries//crt_emu_cm_redlink, --server, :10989, -msg-port=57742, -g, -mi, -2, -pK32L2B31xxxxA, -vendor=NXP, --connectscript=kinetisconnect.scp, --reset=, -ProbeHandle=1, -CoreIndex=0, -cache=disable, --flash-hashing, --flash-driver=, -x, C:/Users/yoine/OneDrive - Universidad del Magdalena/Diplomado IoT/Actividades/Modulo 2/frdmk32l2b_led_led_blinky/Debug, --flash-dir, C:/nxp/MCUXpressoIDE_11.6.1_8255/ide/plugins/com.nxp.mcuxpresso.tools.bin.win32_11.6.1.202210030617/binaries/Flash, --flash-dir, C:/Users/yoine/OneDrive - Universidad del Magdalena/Diplomado IoT/Actividades/Modulo 2/.mcuxpressoide_packages_support/K32L2B31xxxxA_support/Flash, --telnet, 3330 ]
+
+!ENTRY com.nxp.mcuxpresso.core.debug 1 0 2022-11-04 16:09:50.547
+!MESSAGE Telnet session connected on port 3330->57747 @ 127.0.0.1
+
+!ENTRY com.crt.log 4 -1 2022-11-04 16:19:32.676
+!MESSAGE Attempted to beginRule: R/, does not match outer scope rule: P/frdmk32l2b_led_led_blinky
+!STACK 0
+java.lang.Exception: org.eclipse.core.runtime.CoreException: Attempted to beginRule: R/, does not match outer scope rule: P/frdmk32l2b_led_led_blinky
+	at com.crt.utils.general.Reporter.log(Reporter.java:591)
+	at com.nxp.mcuxpresso.core.datamodels.SDKChipVendorDatabase.save(SDKChipVendorDatabase.java:521)
+	at com.crt.config.database.ChipVendor.save(ChipVendor.java:751)
+	at com.crt.config.database.TargetConfig.save(TargetConfig.java:1534)
+	at com.crt.config.SaveViewInfo.saving(SaveViewInfo.java:102)
+	at org.eclipse.core.internal.resources.SaveManager.executeLifecycle(SaveManager.java:387)
+	at org.eclipse.core.internal.resources.SaveManager$1.run(SaveManager.java:204)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.resources.SaveManager.broadcastLifecycle(SaveManager.java:207)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1164)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1143)
+	at org.eclipse.core.internal.resources.Project.close(Project.java:197)
+	at org.eclipse.ui.actions.CloseResourceAction.invokeOperation(CloseResourceAction.java:171)
+	at org.eclipse.ui.actions.WorkspaceAction.execute(WorkspaceAction.java:159)
+	at org.eclipse.ui.actions.WorkspaceAction$1.runInWorkspace(WorkspaceAction.java:459)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.eclipse.core.runtime.CoreException: Attempted to beginRule: R/, does not match outer scope rule: P/frdmk32l2b_led_led_blinky
+	at org.eclipse.cdt.internal.core.settings.model.ExceptionFactory.createCoreException(ExceptionFactory.java:29)
+	at org.eclipse.cdt.internal.core.settings.model.AbstractCProjectDescriptionStorage.setProjectDescription(AbstractCProjectDescriptionStorage.java:211)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionStorageManager.setProjectDescription(CProjectDescriptionStorageManager.java:153)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.setProjectDescription(CProjectDescriptionManager.java:867)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.setProjectDescription(CProjectDescriptionManager.java:817)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.setProjectDescription(CProjectDescriptionManager.java:810)
+	at org.eclipse.cdt.core.model.CoreModel.setProjectDescription(CoreModel.java:1400)
+	at com.nxp.mcuxpresso.core.datamodels.SDKChipVendorDatabase.save(SDKChipVendorDatabase.java:516)
+	... 15 more
+Caused by: java.lang.IllegalArgumentException: Attempted to beginRule: R/, does not match outer scope rule: P/frdmk32l2b_led_led_blinky
+	at org.eclipse.core.runtime.Assert.isLegal(Assert.java:66)
+	at org.eclipse.core.internal.jobs.ThreadJob.illegalPush(ThreadJob.java:137)
+	at org.eclipse.core.internal.jobs.ThreadJob.push(ThreadJob.java:401)
+	at org.eclipse.core.internal.jobs.ImplicitJobs.begin(ImplicitJobs.java:66)
+	at org.eclipse.core.internal.jobs.JobManager.beginRule(JobManager.java:311)
+	at org.eclipse.core.internal.resources.WorkManager.checkIn(WorkManager.java:124)
+	at org.eclipse.core.internal.resources.Workspace.prepareOperation(Workspace.java:2263)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2308)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2338)
+	at org.eclipse.cdt.internal.core.model.CModelOperation.runOperation(CModelOperation.java:644)
+	at org.eclipse.cdt.internal.core.settings.model.AbstractCProjectDescriptionStorage.setProjectDescription(AbstractCProjectDescriptionStorage.java:209)
+	... 21 more
+
+!ENTRY com.crt.log 4 -1 2022-11-04 16:25:31.995
+!MESSAGE Attempted to beginRule: R/, does not match outer scope rule: P/frdmk32l2b_hello_word_hello_world
+!STACK 0
+java.lang.Exception: org.eclipse.core.runtime.CoreException: Attempted to beginRule: R/, does not match outer scope rule: P/frdmk32l2b_hello_word_hello_world
+	at com.crt.utils.general.Reporter.log(Reporter.java:591)
+	at com.nxp.mcuxpresso.core.datamodels.SDKChipVendorDatabase.save(SDKChipVendorDatabase.java:521)
+	at com.crt.config.database.ChipVendor.save(ChipVendor.java:751)
+	at com.crt.config.database.TargetConfig.save(TargetConfig.java:1534)
+	at com.crt.config.SaveViewInfo.saving(SaveViewInfo.java:102)
+	at org.eclipse.core.internal.resources.SaveManager.executeLifecycle(SaveManager.java:387)
+	at org.eclipse.core.internal.resources.SaveManager$1.run(SaveManager.java:204)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.resources.SaveManager.broadcastLifecycle(SaveManager.java:207)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1164)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1143)
+	at org.eclipse.core.internal.resources.Project.close(Project.java:197)
+	at org.eclipse.ui.actions.CloseResourceAction.invokeOperation(CloseResourceAction.java:171)
+	at org.eclipse.ui.actions.WorkspaceAction.execute(WorkspaceAction.java:159)
+	at org.eclipse.ui.actions.WorkspaceAction$1.runInWorkspace(WorkspaceAction.java:459)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.eclipse.core.runtime.CoreException: Attempted to beginRule: R/, does not match outer scope rule: P/frdmk32l2b_hello_word_hello_world
+	at org.eclipse.cdt.internal.core.settings.model.ExceptionFactory.createCoreException(ExceptionFactory.java:29)
+	at org.eclipse.cdt.internal.core.settings.model.AbstractCProjectDescriptionStorage.setProjectDescription(AbstractCProjectDescriptionStorage.java:211)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionStorageManager.setProjectDescription(CProjectDescriptionStorageManager.java:153)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.setProjectDescription(CProjectDescriptionManager.java:867)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.setProjectDescription(CProjectDescriptionManager.java:817)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.setProjectDescription(CProjectDescriptionManager.java:810)
+	at org.eclipse.cdt.core.model.CoreModel.setProjectDescription(CoreModel.java:1400)
+	at com.nxp.mcuxpresso.core.datamodels.SDKChipVendorDatabase.save(SDKChipVendorDatabase.java:516)
+	... 15 more
+Caused by: java.lang.IllegalArgumentException: Attempted to beginRule: R/, does not match outer scope rule: P/frdmk32l2b_hello_word_hello_world
+	at org.eclipse.core.runtime.Assert.isLegal(Assert.java:66)
+	at org.eclipse.core.internal.jobs.ThreadJob.illegalPush(ThreadJob.java:137)
+	at org.eclipse.core.internal.jobs.ThreadJob.push(ThreadJob.java:401)
+	at org.eclipse.core.internal.jobs.ImplicitJobs.begin(ImplicitJobs.java:66)
+	at org.eclipse.core.internal.jobs.JobManager.beginRule(JobManager.java:311)
+	at org.eclipse.core.internal.resources.WorkManager.checkIn(WorkManager.java:124)
+	at org.eclipse.core.internal.resources.Workspace.prepareOperation(Workspace.java:2263)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2308)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2338)
+	at org.eclipse.cdt.internal.core.model.CModelOperation.runOperation(CModelOperation.java:644)
+	at org.eclipse.cdt.internal.core.settings.model.AbstractCProjectDescriptionStorage.setProjectDescription(AbstractCProjectDescriptionStorage.java:209)
+	... 21 more
+!SESSION 2022-11-04 16:29:29.769 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.11
+java.vendor=AdoptOpenJDK
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_CO
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.egit.ui 2 0 2022-11-04 16:29:49.893
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\yoine'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY com.crt.log 1 0 2022-11-04 16:49:25.098
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2022-11-04 16:49:25.603
+!MESSAGE RedlinkServer telnet session connected on port 3025->60764 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2022-11-04 16:49:31.695
+!MESSAGE Starting GDB server [ C:/nxp/MCUXpressoIDE_11.6.1_8255/ide/plugins/com.nxp.mcuxpresso.tools.bin.win32_11.6.1.202210030617/binaries//crt_emu_cm_redlink, --server, :10989, -msg-port=60769, -g, -mi, -2, -pK32L2B31xxxxA, -vendor=NXP, --connectscript=kinetisconnect.scp, --reset=, -ProbeHandle=1, -CoreIndex=0, -cache=disable, --flash-hashing, --flash-driver=, -x, C:/Users/yoine/OneDrive - Universidad del Magdalena/Diplomado IoT/Actividades/Modulo 2/frdmk32l2b_led_led_blinky/Debug, --flash-dir, C:/nxp/MCUXpressoIDE_11.6.1_8255/ide/plugins/com.nxp.mcuxpresso.tools.bin.win32_11.6.1.202210030617/binaries/Flash, --flash-dir, C:/Users/yoine/OneDrive - Universidad del Magdalena/Diplomado IoT/Actividades/Modulo 2/.mcuxpressoide_packages_support/K32L2B31xxxxA_support/Flash, --telnet, 3330 ]
+
+!ENTRY com.nxp.mcuxpresso.core.debug 1 0 2022-11-04 16:49:34.218
+!MESSAGE Telnet session connected on port 3330->60772 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2022-11-04 17:22:49.328
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2022-11-04 17:22:49.832
+!MESSAGE RedlinkServer telnet session connected on port 3025->61474 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2022-11-04 17:22:55.505
+!MESSAGE Starting GDB server [ C:/nxp/MCUXpressoIDE_11.6.1_8255/ide/plugins/com.nxp.mcuxpresso.tools.bin.win32_11.6.1.202210030617/binaries//crt_emu_cm_redlink, --server, :10989, -msg-port=61477, -g, -mi, -2, -pK32L2B31xxxxA, -vendor=NXP, --connectscript=kinetisconnect.scp, --reset=, -ProbeHandle=1, -CoreIndex=0, -cache=disable, --flash-hashing, --flash-driver=, -x, C:/Users/yoine/OneDrive - Universidad del Magdalena/Diplomado IoT/Actividades/Modulo 2/frdmk32l2b_led_led_blinky/Debug, --flash-dir, C:/nxp/MCUXpressoIDE_11.6.1_8255/ide/plugins/com.nxp.mcuxpresso.tools.bin.win32_11.6.1.202210030617/binaries/Flash, --flash-dir, C:/Users/yoine/OneDrive - Universidad del Magdalena/Diplomado IoT/Actividades/Modulo 2/.mcuxpressoide_packages_support/K32L2B31xxxxA_support/Flash, --telnet, 3330 ]
+
+!ENTRY com.nxp.mcuxpresso.core.debug 1 0 2022-11-04 17:22:58.016
+!MESSAGE Telnet session connected on port 3330->61480 @ 127.0.0.1
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 4 0 2022-11-04 18:26:01.036
+!MESSAGE 16: Target error from status-poll
+!SUBENTRY 1 com.nxp.mcuxpresso.core.debug.support.linkserver 4 0 2022-11-04 18:26:01.037
+!MESSAGE 16: Target error from status-poll
+!SUBENTRY 1 com.nxp.mcuxpresso.core.debug.support.linkserver 4 0 2022-11-04 18:26:01.037
+!MESSAGE Hardware Transfer Error
+!SUBENTRY 1 com.nxp.mcuxpresso.core.debug.support.linkserver 4 0 2022-11-04 18:26:01.037
+!MESSAGE Debugging context: frdmk32l2b_led_led_blinky LinkServer Debug
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2022-11-04 20:02:06.228
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.ImmediateRequestMonitor@203d9667): Status ERROR: org.eclipse.cdt.dsf.gdb code=10004 Failed to execute MI command:
+-exec-interrupt
+Error message from debugger back end:
+Stopping Thread 1 failed: T06thread:1; java.lang.Exception: Stopping Thread 1 failed: T06thread:1;' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10004 2022-11-04 20:02:06.229
+!MESSAGE Failed to execute MI command:
+-exec-interrupt
+Error message from debugger back end:
+Stopping Thread 1 failed: T06thread:1;
+!STACK 0
+java.lang.Exception: Stopping Thread 1 failed: T06thread:1;
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.processMIOutput(AbstractMIControl.java:1013)
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.run(AbstractMIControl.java:842)
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2022-11-04 20:02:06.954
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.gdb.service.GDBRunControl_7_0_NS$16@71aaafb1): Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Connection is shut down' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2022-11-04 20:02:06.954
+!MESSAGE Connection is shut down
+
+!ENTRY com.crt.log 1 0 2022-11-04 20:02:07.301
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2022-11-04 20:02:07.808
+!MESSAGE RedlinkServer telnet session connected on port 3025->50694 @ 127.0.0.1
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 4 0 2022-11-04 20:02:07.810
+!MESSAGE Unable to parse ProbeList output to get probe ref count: []
+
+!ENTRY com.nxp.swtools.mux.view 4 0 2022-11-04 20:02:10.267
+!MESSAGE waitUntilUpdated(): project.waitUntilValidated() failed
+
+!ENTRY com.nxp.swtools.utils 4 0 2022-11-04 20:02:10.269
+!MESSAGE saveConfiguration: waitUntilUpdated failed for tool: Pins
+!SESSION 2022-11-04 20:02:42.885 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.11
+java.vendor=AdoptOpenJDK
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_CO
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.egit.ui 2 0 2022-11-04 20:03:05.232
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\yoine'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY com.crt.log 4 -1 2022-11-04 20:03:18.850
+!MESSAGE Attempted to beginRule: R/, does not match outer scope rule: P/frdmk32l2b_led_led_blinky
+!STACK 0
+java.lang.Exception: org.eclipse.core.runtime.CoreException: Attempted to beginRule: R/, does not match outer scope rule: P/frdmk32l2b_led_led_blinky
+	at com.crt.utils.general.Reporter.log(Reporter.java:591)
+	at com.nxp.mcuxpresso.core.datamodels.SDKChipVendorDatabase.save(SDKChipVendorDatabase.java:521)
+	at com.crt.config.database.ChipVendor.save(ChipVendor.java:751)
+	at com.crt.config.database.TargetConfig.save(TargetConfig.java:1534)
+	at com.crt.config.SaveViewInfo.saving(SaveViewInfo.java:102)
+	at org.eclipse.core.internal.resources.SaveManager.executeLifecycle(SaveManager.java:387)
+	at org.eclipse.core.internal.resources.SaveManager$1.run(SaveManager.java:204)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.resources.SaveManager.broadcastLifecycle(SaveManager.java:207)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1164)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1143)
+	at org.eclipse.core.internal.resources.Project.close(Project.java:197)
+	at org.eclipse.ui.actions.CloseResourceAction.invokeOperation(CloseResourceAction.java:171)
+	at org.eclipse.ui.actions.WorkspaceAction.execute(WorkspaceAction.java:159)
+	at org.eclipse.ui.actions.WorkspaceAction$1.runInWorkspace(WorkspaceAction.java:459)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.eclipse.core.runtime.CoreException: Attempted to beginRule: R/, does not match outer scope rule: P/frdmk32l2b_led_led_blinky
+	at org.eclipse.cdt.internal.core.settings.model.ExceptionFactory.createCoreException(ExceptionFactory.java:29)
+	at org.eclipse.cdt.internal.core.settings.model.AbstractCProjectDescriptionStorage.setProjectDescription(AbstractCProjectDescriptionStorage.java:211)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionStorageManager.setProjectDescription(CProjectDescriptionStorageManager.java:153)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.setProjectDescription(CProjectDescriptionManager.java:867)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.setProjectDescription(CProjectDescriptionManager.java:817)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.setProjectDescription(CProjectDescriptionManager.java:810)
+	at org.eclipse.cdt.core.model.CoreModel.setProjectDescription(CoreModel.java:1400)
+	at com.nxp.mcuxpresso.core.datamodels.SDKChipVendorDatabase.save(SDKChipVendorDatabase.java:516)
+	... 15 more
+Caused by: java.lang.IllegalArgumentException: Attempted to beginRule: R/, does not match outer scope rule: P/frdmk32l2b_led_led_blinky
+	at org.eclipse.core.runtime.Assert.isLegal(Assert.java:66)
+	at org.eclipse.core.internal.jobs.ThreadJob.illegalPush(ThreadJob.java:137)
+	at org.eclipse.core.internal.jobs.ThreadJob.push(ThreadJob.java:401)
+	at org.eclipse.core.internal.jobs.ImplicitJobs.begin(ImplicitJobs.java:66)
+	at org.eclipse.core.internal.jobs.JobManager.beginRule(JobManager.java:311)
+	at org.eclipse.core.internal.resources.WorkManager.checkIn(WorkManager.java:124)
+	at org.eclipse.core.internal.resources.Workspace.prepareOperation(Workspace.java:2263)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2308)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2338)
+	at org.eclipse.cdt.internal.core.model.CModelOperation.runOperation(CModelOperation.java:644)
+	at org.eclipse.cdt.internal.core.settings.model.AbstractCProjectDescriptionStorage.setProjectDescription(AbstractCProjectDescriptionStorage.java:209)
+	... 21 more

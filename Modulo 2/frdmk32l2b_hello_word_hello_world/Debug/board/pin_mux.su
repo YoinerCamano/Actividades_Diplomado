@@ -1,0 +1,4 @@
+C:\Users\yoine\OneDrive - Universidad del Magdalena\Diplomado IoT\Actividades\Modulo 2\frdmk32l2b_hello_word_hello_world\drivers/fsl_clock.h:438:20:CLOCK_EnableClock	24	static
+C:\Users\yoine\OneDrive - Universidad del Magdalena\Diplomado IoT\Actividades\Modulo 2\frdmk32l2b_hello_word_hello_world\drivers/fsl_port.h:425:20:PORT_SetPinMux	24	static
+../board/pin_mux.c:37:6:BOARD_InitBootPins	8	static
+../board/pin_mux.c:60:6:BOARD_InitPins	8	static

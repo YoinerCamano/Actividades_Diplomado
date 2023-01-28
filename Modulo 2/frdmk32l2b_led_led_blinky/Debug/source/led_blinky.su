@@ -1,0 +1,6 @@
+C:\Users\yoine\OneDrive - Universidad del Magdalena\Diplomado IoT\Actividades\Modulo 2\frdmk32l2b_led_led_blinky\CMSIS/core_cm0plus.h:850:22:__NVIC_SetPriority	24	static
+C:\Users\yoine\OneDrive - Universidad del Magdalena\Diplomado IoT\Actividades\Modulo 2\frdmk32l2b_led_led_blinky\CMSIS/core_cm0plus.h:1058:26:SysTick_Config	16	static
+C:\Users\yoine\OneDrive - Universidad del Magdalena\Diplomado IoT\Actividades\Modulo 2\frdmk32l2b_led_led_blinky\drivers/fsl_gpio.h:378:20:GPIO_PortToggle	16	static
+../source/led_blinky.c:35:6:SysTick_Handler	8	static
+../source/led_blinky.c:43:6:SysTick_DelayTicks	16	static
+../source/led_blinky.c:54:5:main	8	static
