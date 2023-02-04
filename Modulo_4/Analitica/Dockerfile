@@ -10,6 +10,6 @@ RUN pip install influx-client==1.36
 
 RUN pip install pika 
 
-COPY ./app.py /app/main.py
+COPY Modulo_4/Analitica/main.py /app/main.py
 
 CMD ["python","/app/main.py"]
