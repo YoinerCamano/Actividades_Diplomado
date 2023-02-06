@@ -21,7 +21,7 @@ class Analitica():
     better = -math.inf
     best_run = 0
     influx_bucket = 'rabbit'
-    influx_token = 'TOKEN_SECRETO'
+    influx_token = 'token-secreto'
     influx_url = 'http://influxdb:8086'
     influx_org = 'org'
 
