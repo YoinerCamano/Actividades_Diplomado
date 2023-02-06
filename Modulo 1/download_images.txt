@@ -1,1 +1,0 @@
-docker pull yoicam/taller:1.0
