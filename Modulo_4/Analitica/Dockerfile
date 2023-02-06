@@ -6,9 +6,9 @@ RUN apt-get update
 
 RUN apt-get -y install python3-aiohttp
 
-RUN pip install influx-client==1.36
+RUN pip install influxdb-client==1.36
 
-RUN pip install pika 
+RUN pip install pika==1.3.1
 
 COPY Modulo_4/Analitica/main.py /app/main.py
 
