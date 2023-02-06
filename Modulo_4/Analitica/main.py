@@ -28,12 +28,12 @@ class Analitica():
     def add_max(self,_medida):
         if _medida > self.value_max:
             self.value_max =_medida
-            self.write("Pasos", "Maximo",_medida)
+            self.write("Pasos", "Maximo",int(self.value_max))
 
     def add_min(self, _medida):
         if _medida < self.value_min:
             self.value_min =_medida
-            self.write("Pasos", "Minimo",_medida)   
+            self.write("Pasos", "Minimo",int(self.value_min))   
 
     def add_prom(self, _medida):
         self.prom_list.append(_medida)
@@ -51,9 +51,9 @@ class Analitica():
         if _medida < 5000:
             self.low_5k += 1
             print("Menos de 5.000 {}".format(self.low_5k), flush=True)
-            self.write_db('Pasos', "-50000", int(self.low_5k))
+            self.write('Pasos', "-50000", int(self.low_5k))
         else:
-            self.write_db('Pasos', "-50000", int(self.low_5k))
+            self.write('Pasos', "-50000", int(self.low_5k))
 
     def consecutive(self, _medida):
         if _medida >= self.value_previus:
@@ -61,7 +61,7 @@ class Analitica():
             self.better = _medida
             self.days_consecutive += 1
             self.best_run = self.days_consecutive
-            self.write("Pasos","")
+            self.write("Pasos","Consecutivos", int(self.best_run))
 
         else:
             self.days_consecutive = 0
